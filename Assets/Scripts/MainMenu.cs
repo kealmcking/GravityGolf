@@ -8,6 +8,8 @@ public class MainMenu : MonoBehaviour
 
     [SerializeField] AudioClip continueClip, retryClip;
     [SerializeField] AudioSource audioSource;
+    [SerializeField] bool isMainMenuEnd;
+
 
     public void QuitGame()
     {
